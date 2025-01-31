@@ -1,0 +1,123 @@
+/* Reset stile di base */
+body, h1, h2, h3, p, button, input, ol {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Impostazioni generali */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titolo */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form Range */
+form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Input e pulsanti */
+#input-number {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#input-number:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Tentativi */
+#attemps-counter {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Risposta */
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#success {
+    color: green;
+    font-weight: bold;
+}
+
+/* Classifica */
+#leaderboard {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+}
+
+#leaderboard li {
+    padding: 10px;
+    background: #eee;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Pulsante reset classifica */
+#reset-leaderboard {
+    margin-top: 10px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Della Valle - La mia Personale WebPage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header -->
+    <header class="bg-blue-500 text-white text-center p-6">
+        <h1 class="text-3xl font-bold">Benvenuto nel mio blog!</h1>
+        <p class="text-lg">Scopri i miei progetti e le mie passioni.</p>
+        <div id="theme-toggle">
+            <label class="switch">
+                <input type="checkbox" id="theme-switch">
+                <span class="slider"></span>
+            </label>
+            <span id="theme-label">Modo Scuro</span>
+        </div>
+    </header>
+
+    <!-- Sezione Chi Sono -->
+    <section class="flex items-center justify-between p-8 bg-white shadow-md">
+        <div class="w-2/3">
+            <h2 class="text-2xl font-semibold mb-4">Chi Sono</h2>
+            <p>Mi chiamo Andrea, sono un ingegnere appassionato di programmazione. Sto imparando le tecnologie FrontEnd creando progetti interattivi.</p>
+            <p>In questa pagina voglio condividere ciò che realizzo per avere commenti e trovare altri appassionati che vogliano conoscermi.</p>
+        </div>
+        <div class="w-1/3 flex justify-end">
+            <img src="tuafoto.jpg" alt="Foto personale" class="rounded-full w-32 h-32 object-cover shadow-lg">
+        </div>
+    </section>
+
+    <!-- Sezione Progetti -->
+    <section class="p-8">
+        <h2 class="text-2xl font-semibold text-center mb-6">I Miei Progetti</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Progetto -->
+            <a href="Tower Controller\index.html" class="block bg-white shadow-md rounded-lg p-4 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold">Tower Controller</h3>
+                <p>Fai atterrare tanti più aerei possibile evitando le collisioni</p>
+                <p class="text-gray-400">In progress.....</p>
+            </a>
+            <a href="Snake\index.html" class="block bg-white shadow-md rounded-lg p-4 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold">Snake</h3>
+                <p>Un gioco classico con un tocco personale!</p>
+            </a>
+            <!-- Progetto -->
+            <a href="Pendolum/index.html" class="block bg-white shadow-md rounded-lg p-4 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold">Simulazione del Pendolo</h3>
+                <p>Una simulazione fisica interattiva.</p>
+            </a>
+            <!-- Progetto -->
+            <a href="Guess The Number/index.html" class="block bg-white shadow-md rounded-lg p-4 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold">Indovina il Numero</h3>
+                <p>Metti alla prova la tua fortuna!</p>
+            </a>
+            <!-- Placeholder per progetti futuri -->
+            <div class="block bg-gray-200 rounded-lg p-4">
+                <h3 class="text-lg font-semibold text-gray-500">Progetti Futuri</h3>
+                <p class="text-gray-400">In arrivo presto...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center p-4">
+        <p>Creato con ❤️ da Andrea</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* Resetta i margini del body */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #87CEEB; /* Sfondo cielo */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Header per il titolo e sottotitolo */
+  header {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Stile per il canvas */
+  #game-area {
+    border: 2px solid #333;
+    background-color: #7BB369; /* Colore della pista/area di gioco */
+
+  }
+  
